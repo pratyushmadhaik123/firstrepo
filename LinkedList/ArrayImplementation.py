@@ -82,7 +82,7 @@ class LinkedList():
         if current == -1:
             print("No node found")
             return
-        self.Nodes[current].setName("<-DELETED->")
+        self.Nodes[current].setdata("<-DELETED->")
 
         #delete 1st Node
         if previous == -1:
